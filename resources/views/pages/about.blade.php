@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default', ['title' => 'about'])
 
 @section('content')
     <div class="container">
@@ -29,8 +29,8 @@
                   <h2>Le saviez vous ?</h2>
                 <p>Parait t-il que les developpeurs Laravel sont appelés des artisans! <strong>PHP artisan...</strong> du coup je suis donc un 
                 artisan du moment ou je fais partir de la communauté Laravel :) c'est fun na... les gas?? lol!! </p>
-                   <p><a href=""><h4>Code source de mon projet</h4></a></p>
-                <p>Vous pouvez télécharger la source de ce projet sur <a href="">github</a> </p>
+                   <p><a href="https://github.com/sedjronicaise/laracarte-Nicaise"><h4>Code source de mon projet</h4></a></p>
+                <p>Vous pouvez télécharger la source de ce projet sur <a href="https://github.com/sedjronicaise/laracarte-Nicaise">github</a> </p>
             </div>
          </div>
     </div>
