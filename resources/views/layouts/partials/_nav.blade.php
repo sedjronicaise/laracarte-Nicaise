@@ -12,9 +12,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="{{ route('root_path')}}">Acceuil</a></li>
+            <li class="active"><a href="{{ route('root_path')}}">Accueil</a></li>
             <li><a href="{{route('about_path')}}">A propos</a></li>
-            <li><a href="#contact">Artisan</a></li> 
+            <li><a href="#">Artisan</a></li> 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               Planète <span class="caret"></span></a>
@@ -27,7 +27,7 @@
                 <li><a href="#">Larachat</a></li>
               </ul>
             </li>
-            <li><a href="#contact">Contact</a></li> 
+            <li><a href="{{route('contact_path')}}">Contact</a></li> 
           </ul>
           
           <ul class="nav navbar-nav navbar-right">

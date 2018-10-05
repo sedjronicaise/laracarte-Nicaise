@@ -4,8 +4,8 @@
     <div class="container">
          <div class="row">
             <div class="col-md-6">
-            <h2>C'est quoi Laracarte ?</h2>
-            <p>Laracarte est la toute première application Conçut par Nicaise après avoir
+            <h2>C'est quoi {{config('app.name')}} ?</h2>
+            <p>{{config('app.name')}} est la toute première application Conçut par Nicaise après avoir
                  appris le FrameWork Laravel de PHP :)</p>
                 <p class="alert alert-warning">
                 <i class="fa fa-exclamation-triangle"></i>
